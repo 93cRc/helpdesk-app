@@ -1,9 +1,13 @@
 Terminal 1
 
-npm i
-
-npm run dev
+(ważne najpierw uruchomić kontener z bazą damnych)
+docker-compose up
 
 Terminal 2
 
-docker-compose up
+npm i
+
+(Upewnić się, że kontener bazy danych jest uruchomiony i działa w tle) - inicjacja bazy danych.
+node init-db.js
+
+npm run dev
